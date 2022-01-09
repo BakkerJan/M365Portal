@@ -177,16 +177,24 @@ Here is an overview of the solution:
 Let's start with the flow. If we take a look at the first section, a lot of variables are being initiated. 
 
 `groupIDs` is used to define all the Azure AD groups. This variable will be used against Graph API, to fetch the users' group membership.
+
 `tenantID` is used for authentication in the HTTP connector.
+
 `clientID` is used for authentication in the HTTP connector.
+
 `Secret` is used for authentication in the HTTP connector.
+
 `userID` is used as parameter to define the selected user.
+
 `groupID` is used as parameter to define the selected group. 
+
 `actionID` can either be `add`, `remove`, or `fetch`. This is used as a parameter. 
+
 `response` is used to capture the response and send back to Power Apps to give feedback. This is used within the notification bar.
+
 `CurrentGroups` is used in a `do-until` loop. This will fetch the current group membership of the user until it matches the expected state, being added or removed from the group. This is explained later on as well. 
 
-In the next section, 2 API calls are done to get more information about the user and the group. This is used in the response, but can also be used for additional steps like auditing, email notifications for example. 
+In the next section, two API calls are done to get more information about the user and the group. This is used in the response, but can also be used for additional steps like auditing, email notifications for example. 
 
 ![Flow - API calls](images/1641736027.png)
 
