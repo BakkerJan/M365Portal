@@ -166,6 +166,13 @@ When enabled, a debug button will appear in the corner of the app, bringing you 
 
 ![image-debugmode](images/1641744210.png)
 
+## Add-ons
+
+You can create additional flows to act on the group membership changes. You can send out email or chats with additional information about the features such as manuals or instruction video's. I've created an additional blogpost to create thos flows. It is very easy to set-up, and can be done with default connectors. 
+
+[To the blogpost](https://janbakker.tech/act-on-group-membership-changes-in-azure-active-directory/)
+
+![blogpost-image](images/1641819996.png)
 # Breakdown of the app and flow
 
 This section will give a peek under the hood, on how the logic of the app is built. In short, the app work with two key elements: the Power App and a flow in Power Automate.
