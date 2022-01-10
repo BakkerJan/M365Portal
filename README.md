@@ -10,8 +10,7 @@ This guide will help you to import the SelfService PowerApp into your own enviro
 
 There is also a step-by-step video tutorial available on youtube:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MzH1Ps6gG7A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+[![Watch the video](images/YouTube-Logo.png)](https://www.youtube.com/watch?v=MzH1Ps6gG7A)
 
 ## Requirements overview
 - Azure AD groups (one for each feature)
