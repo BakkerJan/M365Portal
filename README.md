@@ -111,7 +111,7 @@ After you changed the variables, save the flow, and make sure it is enabled.
 
 ![Flow - enable flow](images/1641716526.png)
 
-## - Step 5 - Update the Power App
+## Step 5 - Update the Power App
 
 Now that we prepped the flow, back to the Power App. In the [Power Apps portal](https://make.powerapps.com), find the imported app, and choose to **edit**.
 
@@ -141,7 +141,7 @@ If you don't use all the features, just add dummy values. You can simply hide th
 
 > We are now done with the basic set-up. Save the app after you did the modifications. 
 
-### - Step 6 - Test the app
+### Step 6 - Test the app
 
 Now that we did the basic configuration, it's time to test the app. Leave the edit mode, and run the app in `Play` mode. 
 
@@ -168,7 +168,7 @@ When enabled, a debug button will appear in the corner of the app, bringing you 
 
 ## Add-ons
 
-You can create additional flows to act on the group membership changes. You can send out email or chats with additional information about the features such as manuals or instruction video's. I've created an additional blogpost to create thos flows. It is very easy to set-up, and can be done with default connectors. 
+You can create additional flows to act on the group membership changes. You can send out emails or chats with additional information about the features such as manuals or instruction video's. I've created an additional blogpost to create those flows. It is very easy to set-up, and can be done with default connectors. 
 
 [To the blogpost](https://janbakker.tech/act-on-group-membership-changes-in-azure-active-directory/)
 
