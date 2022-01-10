@@ -6,6 +6,13 @@ This guide will help you to import the SelfService PowerApp into your own enviro
 
 >This app is based on Azure AD users and groups.
 
+## Youtube video with instructions
+
+There is also a step-by-step video tutorial available on youtube:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MzH1Ps6gG7A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ## Requirements overview
 - Azure AD groups (one for each feature)
 - Power Automate -> [License FAQ](https://docs.microsoft.com/en-us/power-platform/admin/pricing-billing-skus)
@@ -159,10 +166,6 @@ When enabled, a debug button will appear in the corner of the app, bringing you 
 ![Power Apps - Debug icon](images/1641719625.png)
 
 ![image-debugmode](images/1641744210.png)
-
-## Youtube video with instructions (soon)
-
-If you want a step-by-step tutorial, please check out this Youtube video.
 
 # Breakdown of the app and flow
 
