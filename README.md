@@ -67,7 +67,7 @@ Groups can be either Security or Microsoft 365 groups but have to be **static**,
 
 ## Step 3 - Import the app
 
-Now that we have created an app registration and the groups, it's time to import the app. Download the ZIP file from this repository, and go to [The Power App portal](https://make.powerapps.com).
+Now that we have created an app registration and the groups, it's time to import the app. Download the [ZIP file](https://github.com/BakkerJan/M365Portal/blob/main/SelfServicePortal_20220110193622.zip) from this repository, and go to [The Power App portal](https://make.powerapps.com).
 
 In the app section, select **Import canvas app**
 
