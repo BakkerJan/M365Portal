@@ -35,7 +35,7 @@ Below are all steps required to install the Power App into your environment.
 
 ### Step 1 - Create an app registration and assign permissions
 
-Before we start, we need an app registration in Azure AD. To create a new application you can [use the portal to create an Azure AD application and service principal that can access resources](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal). Once created Assign the following permission for the Graph API: `https://graph.microsoft.com/Directory.Read.All (application)` and `https://graph.microsoft.com/Group.ReadWrite.All (application)`
+Before we start, we need an app registration in Azure AD. To create a new application you can [use the portal to create an Azure AD application and service principal that can access resources](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal). Once created Assign the following permission for the Graph API: `https://graph.microsoft.com/Directory.Read.All (application)` and `https://graph.microsoft.com/GroupMember.ReadWrite.All (application)`
 
 > 💡 Do not forget to grant admin consent for the permissions!
 
